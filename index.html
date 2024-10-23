@@ -117,16 +117,37 @@
     </section>
     <!-- Top Section -->
 
-    <!-- Home -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
-                <h2 id="home-subtitle"> In </h2>
+                <h2 id="home-subtitle"><i class="bi bi-info-circle"></i>&nbsp;Information</h2>
             </header>
-            <div class="main-body" id="home-md"></div>
+            <div class="main-body" id="home-md">
+                <p>
+                    The Vancouver local meetup for the <strong>Learning on Graphs (LoG) Conference 2024</strong> aims to create an engaging and collaborative environment for researchers, engineers, and practitioners working on machine learning for graphs and geometry. This event will bring together participants from academia and industry across the Greater Vancouver Area to enhance the virtual conference experience with in-person discussions, networking opportunities, and the exchange of innovative ideas.
+                </p>
+                <p>
+                    By fostering meaningful connections, we hope to inspire new collaborations between local researchers and industry professionals, strengthening the links between academic research and practical applications in this growing field. Join us at the Vancouver meetup and contribute to the global conversation on machine learning for graphs at LoG 2024!
+                </p>
+                <h3>Location and Registration</h3>
+                <p>The meetup will be held on November 26, 2024 at the <strong>University of British Columbia (UBC)</strong>.
+                Please use the following link to register: <a href="[Google Form Placeholder]" target="_blank">Registration Link</a></p>
+                <h3>Topics</h3>
+                <p>
+                    In addition to the core  <a href="https://logconference.org/cfp/" target="_blank">topics</a> of the LoG conference, we welcome work at the intersection of graphs, geometry, and foundation models, including but not limited to:
+                </p>
+                <ul>
+                    <li>Large Language Models (LLMs)</li>
+                    <li>Multi-modal LLMs</li>
+                    <li>Applications in computer vision</li>
+                    <li>Natural language processing</li>
+                    <li>AI for science</li>
+                    <li>AI safety</li>
+                    <li>Finance</li>
+                </ul>
+            </div>
         </div>
     </section>
-    <!-- Home -->
 
     <!-- Schedule -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="schedule">
@@ -134,10 +155,65 @@
             <header>
                 <h2 id="schedule-subtitle"><i class="bi bi-calendar"></i>&nbsp;Schedule</h2>
             </header>
-            <div class="main-body" id="publications-md"></div>
-
+            <div class="main-body" id="schedule-md">
+                <table class="table-custom">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Event</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8:45am to 9:00am</td>
+                            <td>Opening Remark</td>
+                        </tr>
+                        <tr>
+                            <td>9:00am to 9:45am</td>
+                            <td>Invited Talk 1</td>
+                        </tr>
+                        <tr>
+                            <td>9:45am to 10:30am</td>
+                            <td>Invited Talk 2</td>
+                        </tr>
+                        <tr>
+                            <td>10:30am to 10:45am</td>
+                            <td>Coffee Break 1</td>
+                        </tr>
+                        <tr>
+                            <td>10:45am to 11:45am</td>
+                            <td>Oral Session 1 (4 talks, each 15mins)</td>
+                        </tr>
+                        <tr>
+                            <td>11:45pm to 2:00pm</td>
+                            <td>Lunch + Poster Session</td>
+                        </tr>
+                        <tr>
+                            <td>2:00pm to 2:45pm</td>
+                            <td>LoG Talks Session</td>
+                        </tr>
+                        <tr>
+                            <td>2:45pm to 3:30pm</td>
+                            <td>Invited Talk 3</td>
+                        </tr>
+                        <tr>
+                            <td>3:30pm to 3:45pm</td>
+                            <td>Coffee Break 2</td>
+                        </tr>
+                        <tr>
+                            <td>3:45pm to 4:45pm</td>
+                            <td>Oral Session 2 (4 talks, each 15mins)</td>
+                        </tr>
+                        <tr>
+                            <td>4:45pm to 5:00pm</td>
+                            <td>Concluding Remark</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
+    
     <!-- Schedule  -->
 
     <!-- Organizers -->
@@ -146,20 +222,48 @@
             <header>
                 <h2 id="organizers-subtitle"><i class="bi bi-people"></i>&nbsp;Organizers </h2>
             </header>
-            <div class="main-body" id="awards-md"></div>
+            <div style="margin-bottom: 50px;"></div>
+            <div class="row main-body text-center">
+                <!-- Renjie Liao -->
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img class="rounded-circle" src="static/assets/img/Renjie-Liao.jpg" alt="Renjie Liao" style="width: 200px; height: 200px; object-fit: cover;">
+                    <h5 class="mt-3">Renjie Liao</h5>
+                    <p class="text-muted">Assistant Professor, UBC</p>
+                </div>
 
+                <!-- Oliver Schulte -->
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img class="rounded-circle" src="static/assets/img/Oliver-Schulte.jpg" alt="Oliver Schulte" style="width: 200px; height: 200px; object-fit: cover;">
+                    <h5 class="mt-3">Oliver Schulte</h5>
+                    <p class="text-muted">Professor, SFU</p>
+                </div>
+
+                <!-- Zirui Zhou -->
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img class="rounded-circle" src="static/assets/img/Zirui-Zhou.jpg" alt="Zirui Zhou" style="width: 200px; height: 200px; object-fit: cover;">
+                    <h5 class="mt-3">Zirui Zhou</h5>
+                    <p class="text-muted">Principal Researcher, Huawei Vancouver</p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Organizers -->
 
+
     <!-- Sponsors -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="sponsors">
+    <section class="bg-gradient-primary-to-secondary-gray mt-5 md-5" id="sponsors">
         <div class="container px-5">
             <header>
-                <h2 id="sponsors-subtitle"><i class="bi bi-building"></i>&nbsp;Sponsors </h2>
+                <h2 id="sponsors-subtitle"><i class="bi bi-building"></i>&nbsp;Sponsors</h2>
             </header>
-            <div class="main-body" id="awards-md"></div>
-
+            <div class="container text-center">
+                <div class="row main-body justify-content-center">
+                    <!-- Huawei Logo -->
+                    <div class="col-lg-4 col-md-6 mb-5 d-flex justify-content-center">
+                        <img src="static/assets/img/huawei-logo.svg" alt="Huawei Logo" style="width: 200px; height: auto; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Sponsors -->    

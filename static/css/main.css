@@ -48,6 +48,10 @@ section header h2{
     line-height: 4rem;
 }
 
+h3 {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
 section .main-body{
     font-size: 1.3rem;
     font-weight: 200;
@@ -110,3 +114,50 @@ section .main-body{
 }
 
 
+section {
+    margin-top: 2rem; /* Adjust this value as needed */
+    margin-bottom: 2rem; /* Adjust this value as needed */
+    padding-top: 2rem; /* Reduce padding if needed */
+    padding-bottom: 2rem; /* Reduce padding if needed */
+}
+
+
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.2rem;
+    line-height: 2rem;
+    background: #f9f9f9; /* Slight background color for the table */
+}
+
+.table-custom th, .table-custom td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table-custom thead th {
+    background-color: var(--h-title-color); /* Matches title color */
+    color: #fff; /* White text for header */
+    font-weight: 600;
+}
+
+.table-custom tbody tr:nth-child(even) {
+    background-color: #f0f0f0; /* Alternating row color */
+}
+
+.table-custom tbody tr:hover {
+    background-color: #e0e0e0; /* Row hover effect */
+}
+
+.table-custom td {
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .table-custom {
+        font-size: 1rem;
+    }
+}
